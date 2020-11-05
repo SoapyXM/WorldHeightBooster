@@ -21,5 +21,6 @@
   "depends": {
     "fabricloader": ">=0.10.6+build.214",
     "minecraft": ">=1.17-alpha.20.45.a"
-  }
+  },
+  "accessWidener": "whb.aw"
 }
