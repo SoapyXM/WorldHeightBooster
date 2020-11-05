@@ -1,4 +1,4 @@
-package dev.soapy.worldheightbooster.mixin;
+package dev.soapy.worldheightbooster.mixin.worldgen;
 
 import net.minecraft.world.level.chunk.ProtoChunk;
 import net.minecraft.world.level.levelgen.GenerationStep;

@@ -1,4 +1,4 @@
-package dev.soapy.worldheightbooster.mixin;
+package dev.soapy.worldheightbooster.mixin.worldgen;
 
 import dev.soapy.worldheightbooster.WorldHeightBooster;
 import net.minecraft.world.level.levelgen.Decoratable;
