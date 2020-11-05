@@ -12,7 +12,11 @@
     "MixinNoiseSettings",
     "MixinProtoChunk",
     "MixinRavineCarver",
-    "MixinWorldHeight"
+    "MixinWorldHeight",
+    "bigchunkpacket.bigchunkpacket.MixinClientBoundChunkPacket",
+    "bigchunkpacket.bigchunkpacket.MixinClientChunkCache",
+    "bigchunkpacket.bigchunkpacket.MixinClientPacketListener",
+    "bigchunkpacket.bigchunkpacket.MixinLevelChunk"
   ],
   "client": [
     "MixinDefaultHeightLimit"

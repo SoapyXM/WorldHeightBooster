@@ -24,6 +24,10 @@ dependencies {
     // You may need to force-disable transitiveness on them.
 }
 
+minecraft {
+    accessWidener = file("src/main/resources/whb.aw")
+}
+
 processResources {
     inputs.property "version", project.version
 
