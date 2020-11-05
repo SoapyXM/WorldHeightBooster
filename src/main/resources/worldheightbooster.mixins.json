@@ -16,7 +16,7 @@
     "bigchunkpacket.bigchunkpacket.MixinClientBoundChunkPacket",
     "bigchunkpacket.bigchunkpacket.MixinClientChunkCache",
     "bigchunkpacket.bigchunkpacket.MixinClientPacketListener",
-    "bigchunkpacket.bigchunkpacket.MixinLevelChunkLevelChunk"
+    "bigchunkpacket.bigchunkpacket.MixinLevelChunk"
   ],
   "client": [
     "MixinDefaultHeightLimit"

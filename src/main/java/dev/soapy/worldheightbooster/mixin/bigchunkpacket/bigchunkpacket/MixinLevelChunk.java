@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import java.util.Map;
 
 @Mixin(LevelChunk.class)
-public abstract class MixinLevelChunkLevelChunk implements BitStorageChunkPacketDataLevelChunk {
+public abstract class MixinLevelChunk implements BitStorageChunkPacketDataLevelChunk {
 
 
     @Shadow @Final private Map<BlockPos, BlockEntity> blockEntities;
