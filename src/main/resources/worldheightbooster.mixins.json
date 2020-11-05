@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.soapy.worldheightbooster.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAntifreeze",
+    "MixinCarver",
+    "MixinCaveWorldCarver",
+    "MixinFeature",
+    "MixinNoiseGenerator",
+    "MixinNoiseSettings",
+    "MixinProtoChunk",
+    "MixinRavineCarver",
+    "MixinWorldHeight"
+  ],
+  "client": [
+    "MixinDefaultHeightLimit"
+  ],
+  "server": [
+    "MixinServerProperties"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

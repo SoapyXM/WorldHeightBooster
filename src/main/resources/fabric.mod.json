@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "worldheightbabey",
+  "version": "${version}",
+  "name": "WorldHeightBooster",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/worldheightbooster/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "dev.soapy.worldheightbooster.WorldHeightBooster"
+    ]
+  },
+  "mixins": [
+    "worldheightbooster.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "minecraft": ">=1.17-alpha.20.45.a"
+  }
+}
