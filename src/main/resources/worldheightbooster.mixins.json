@@ -4,6 +4,11 @@
   "package": "dev.soapy.worldheightbooster.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinWorldHeight",
+    "bigchunkpacket.bigchunkpacket.MixinClientBoundChunkPacket",
+    "bigchunkpacket.bigchunkpacket.MixinClientChunkCache",
+    "bigchunkpacket.bigchunkpacket.MixinClientPacketListener",
+    "bigchunkpacket.bigchunkpacket.MixinLevelChunk",
     "worldgen.MixinAntifreeze",
     "worldgen.MixinCarver",
     "worldgen.MixinCaveWorldCarver",
@@ -12,11 +17,10 @@
     "worldgen.MixinNoiseSettings",
     "worldgen.MixinProtoChunk",
     "worldgen.MixinRavineCarver",
-    "MixinWorldHeight",
-    "bigchunkpacket.bigchunkpacket.MixinClientBoundChunkPacket",
-    "bigchunkpacket.bigchunkpacket.MixinClientChunkCache",
-    "bigchunkpacket.bigchunkpacket.MixinClientPacketListener",
-    "bigchunkpacket.bigchunkpacket.MixinLevelChunk"
+    "worldgen.sealevel.MixinBadlandsSurfaceBuilder",
+    "worldgen.sealevel.MixinDefaultSurfaceBuilder",
+    "worldgen.sealevel.MixinErodedBadlandsSurfaceBuilder",
+    "worldgen.sealevel.MixinWoodedBadlandsSurfaceBuilder"
   ],
   "client": [
     "MixinDefaultHeightLimit"
