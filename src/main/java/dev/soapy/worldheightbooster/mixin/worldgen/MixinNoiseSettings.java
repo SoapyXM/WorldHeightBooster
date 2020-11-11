@@ -1,7 +1,6 @@
 package dev.soapy.worldheightbooster.mixin.worldgen;
 
 import dev.soapy.worldheightbooster.WorldHeightBooster;
-import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
 import net.minecraft.world.level.levelgen.NoiseSettings;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.Constant;

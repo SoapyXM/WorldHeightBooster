@@ -2,7 +2,6 @@ package dev.soapy.worldheightbooster.mixin.worldgen;
 
 import dev.soapy.worldheightbooster.WorldHeightBooster;
 import net.minecraft.world.level.levelgen.Decoratable;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.RangeDecoratorConfiguration;
 import net.minecraft.world.level.levelgen.placement.ConfiguredDecorator;
 import net.minecraft.world.level.levelgen.placement.FeatureDecorator;
