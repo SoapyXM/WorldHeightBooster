@@ -19,6 +19,6 @@ public interface MixinFeature<R> {
      */
     @Overwrite
     default R range(int i) {
-        return this.decorated(FeatureDecorator.RANGE.configured(new RangeDecoratorConfiguration(0, 0, WorldHeightBooster.WORLD_HEIGHT)));
+        return this.decorated(FeatureDecorator.RANGE.configured(new RangeDecoratorConfiguration(0, 0, WorldHeightBooster.WORLD_HEIGHT - 1)));
     }
 }
