@@ -12,6 +12,7 @@
     "worldgen.MixinAntifreeze",
     "worldgen.MixinCarver",
     "worldgen.MixinCaveWorldCarver",
+    "worldgen.MixinDesertTemple",
     "worldgen.MixinFeature",
     "worldgen.MixinNoiseGenerator",
     "worldgen.MixinNoiseSettings",
