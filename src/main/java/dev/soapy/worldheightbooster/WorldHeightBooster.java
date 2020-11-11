@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import java.util.logging.Logger;
 
 public class WorldHeightBooster implements ModInitializer {
-    public static int WORLD_HEIGHT = 768;
+    public static int WORLD_HEIGHT = 512;
     public static final int MIN_Y = 0;
     public static final String MOD_ID = "worldheightbooster";
 
