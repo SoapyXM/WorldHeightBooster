@@ -13,7 +13,7 @@
     "worldgen.MixinCarver",
     "worldgen.MixinCaveWorldCarver",
     "worldgen.MixinDesertTemple",
-    "worldgen.MixinFeature",
+    "worldgen.MixinFeatures",
     "worldgen.MixinNoiseGenerator",
     "worldgen.MixinNoiseSettings",
     "worldgen.MixinProtoChunk",
