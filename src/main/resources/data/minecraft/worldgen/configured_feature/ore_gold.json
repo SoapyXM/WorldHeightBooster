@@ -13,7 +13,7 @@
                 "state": {
                   "Name": "minecraft:gold_ore"
                 },
-                "size": 16
+                "size": 9
               },
               "type": "minecraft:ore"
             },
@@ -21,7 +21,7 @@
               "config": {
                 "bottom_offset": 0,
                 "top_offset": 0,
-                "maximum": 256s
+                "maximum": 32
               },
               "type": "minecraft:range"
             }

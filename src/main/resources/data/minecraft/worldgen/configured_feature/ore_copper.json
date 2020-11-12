@@ -11,9 +11,9 @@
                   "predicate_type": "minecraft:tag_match"
                 },
                 "state": {
-                  "Name": "minecraft:dirt"
+                  "Name": "minecraft:copper_ore"
                 },
-                "size": 33
+                "size": 10
               },
               "type": "minecraft:ore"
             },
@@ -21,7 +21,7 @@
               "config": {
                 "bottom_offset": 0,
                 "top_offset": 0,
-                "maximum": 256
+                "maximum": 64
               },
               "type": "minecraft:range"
             }
