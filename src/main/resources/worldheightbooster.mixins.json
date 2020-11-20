@@ -2,6 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "dev.soapy.worldheightbooster.mixin",
+  "plugin": "dev.soapy.worldheightbooster.mixin.FabricApiWorkaroundPlugin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MixinWorldHeight",

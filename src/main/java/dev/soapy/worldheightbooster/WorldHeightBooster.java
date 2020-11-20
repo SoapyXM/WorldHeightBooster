@@ -20,6 +20,5 @@ public class WorldHeightBooster implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.warning("This mod is experimental. Use it at your own risk.");
-        WorldHeightConfig.handleConfig(CONFIG_PATH.resolve(MOD_ID + ".json"));
     }
 }
